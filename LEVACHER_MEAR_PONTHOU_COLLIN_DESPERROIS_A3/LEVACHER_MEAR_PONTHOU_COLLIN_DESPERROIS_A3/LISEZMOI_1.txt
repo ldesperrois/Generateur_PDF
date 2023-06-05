@@ -1,0 +1,23 @@
+Documentation du fichier "region.php"
+
+
+Ce script permet la transformation en 3 fichiers distinct à partir d'un fichier texte les données de l'utilisateur.
+
+Créer un dossier ou vous travaillerais, si vous travailler sur un PC de l'IUT, vous devez vous placer dans le dossier `/Docker/<votre_login>/`.
+
+Placez les fichiers: `Lancement.sh` et `region.php` dans ce dossier.
+
+Ensuite, accorder les droits d'executions au fichier `Lancement.sh` si ce n'est pas déjà le cas, pour ce faire, ouvrez un terminal dans le dossier `Traitement` et executer la commande : `chmod +x execution.sh`.
+
+Ensuite accorder les droits de lecture et d'execution au fichier `region.php` pour ce faire, ouvrez un terminal dans le dossier `Traitement` et executer la commande : `chmod +rx region.php`.
+
+Puis creer un dossier, nommé le comme vous voulez, où vous placerez vos fichiers textes.
+
+Enfin lancer le script via la commande : `./Lancement.sh AUTRE <nom_du_dossier_cree>` si vous êtes sur une machine hors IUT.
+
+Si vous êtes à l'IUT lancé le script via la commande : 
+`./Lancement.sh IUT <nom_du_dossier_cree>`
+
+Finalement vous retrouverez vos fichier données rangé par dossier portant le code ISO des régions dans le dossier `data`.
+
+(Bash ne nous permet pas de modifier les permissions des fichiers du moins pas d'après mes tests d'où la création du dossier manuellement.)

@@ -1,0 +1,12 @@
+Avant de lancer le script TraitementImage.sh, vous devez preparez votre dossier avec vos images.
+
+Puis placer vous dans le dossier parent du dossier contenant vos images.
+
+Pour ce faire à l'IUT vous devez être placer dans le dossier /Docker/<votre_login>.
+
+Si vous êtes à l'IUT devez télécharger l'image docker manuellement :
+Pour ce faire utiliser la commande: docker image pull sae103-imagick:latest.
+
+Enfin afin de lancer le programme: 
+
+./TraitementImage.sh (IUT|AUTRE) <dossier_contenant_les_images>

@@ -1,0 +1,13 @@
+Avant de lancer le script QRCode.sh, vous devez d'abord avoir créé vos dossiers data, pour ce faire utiliser le script region.php (LISEZMOI_1.txt)
+
+Puis placer vous dans le dossier parent du dossier contenant vos données.
+Pour ce faire à l'IUT vous devez être placer dans le dossier /Docker/<votre_login>.
+
+Si vous êtes à l'IUT devez télécharger l'image docker manuellement :
+Pour ce faire utiliser la commande: docker image pull sae103-qrcode:latest.
+
+Enfin afin de lancer le programme: 
+
+./QRCode.sh (IUT|AUTRE) <dossier_contenant_les_donnée_des_regions>
+
+Puis un QRCode sera créé dans chaque dossier de région.

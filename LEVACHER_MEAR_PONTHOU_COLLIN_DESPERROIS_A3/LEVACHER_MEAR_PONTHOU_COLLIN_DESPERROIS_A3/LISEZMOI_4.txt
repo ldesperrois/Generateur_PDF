@@ -1,0 +1,10 @@
+Le script permettant de transformer le PHP en HTML est le suivant:
+
+Pour ce faire à l'IUT vous devez être placer dans le dossier /Docker/<votre_login>.
+
+Premièrement, installer l'image sae103-php si vous êtes à l'iut, sinon installer l'image bigpapoo/sae103-php.
+
+Ensuite tapper la commande : 
+à l'IUT: docker container run --rm -v <chemin_vers_dossier_travail>:/work sae103-php -f modele.php <chemin_vers_dossier_donnée_region> <chemin_vers_dossier_image> <chemin_dossier_logo> > file.html
+
+Ailleurs:  docker container run --rm -v <chemin_vers_dossier_travail>:/work bigpapoo/sae103-php -f modele.php <chemin_vers_dossier_donnée_region> <chemin_vers_dossier_image> <chemin_dossier_logo>

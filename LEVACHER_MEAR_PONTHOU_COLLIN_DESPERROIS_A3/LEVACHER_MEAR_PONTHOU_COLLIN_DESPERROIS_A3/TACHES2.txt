@@ -1,0 +1,54 @@
+SAE 1.03 Installation d’un poste de dev 
+
+ 
+Script QRCODE.sh :
+
+    Lucas Desperois 60%  
+
+    Yohann MEAR 40%  
+
+ 
+
+Script Lancement.SH :
+
+    Yanis PONTHOU 40% 
+
+    Ethan Levacher 55%  
+
+    Lucas Desperois 5% 
+
+ 
+
+Traitement Image.sh :
+
+    Ethan Collin 20% 
+
+    Yanis PONTHOU 30 % 
+
+    Ethan Levacher 50 % 
+
+ 
+
+Taches2.txt :
+
+    Ethan collin 100% 
+
+ 
+
+HTML2PDF.sh :
+
+    Ethan Levacher 50% 
+
+    Yohann MEAR 20% 
+
+    Lucas Desperois 10% 
+
+    Yanis PONTHOU 10% 
+
+ 
+
+HTML & CSS Retouche :
+
+    Ethan Collin 80% 
+
+    Yohann MEAR 20% 

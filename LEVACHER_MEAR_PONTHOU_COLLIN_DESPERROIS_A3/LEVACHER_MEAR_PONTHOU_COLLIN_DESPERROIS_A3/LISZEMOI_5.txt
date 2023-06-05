@@ -1,0 +1,17 @@
+Avant de lancer le script HTML2PDF.sh, vous devez avoir réaliser l'étape LISEZMOI_4.txt.
+
+Pour ce faire à l'IUT vous devez être placer dans le dossier /Docker/<votre_login>.
+
+Puis placer vous dans le dossier de base et lancer le docker: 
+
+Si vous êtes à l'IUT devez télécharger l'image docker manuellement :
+Pour ce faire utiliser la commande: docker image pull sae103-html2pdf:latest.
+
+Enfin afin de lancer le programme: 
+
+A l'IUT:
+docker container run --rm sae103-html2pdf "html2pdf file.html PDF_REGION.pdf"
+
+Si vous êtes hors IUT:
+
+docker contaienr run --rm bigpapoo/sae103-html2pdf file.html PDF_REION.pdf"

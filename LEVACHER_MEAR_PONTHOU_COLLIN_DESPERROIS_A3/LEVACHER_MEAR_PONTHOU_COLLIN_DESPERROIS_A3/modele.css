@@ -1,0 +1,248 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+   background-color: rgb(221, 221, 221);
+   margin: 0;
+   padding: 0;
+}
+
+a, a:hover, a:visited, a:link, a:focus, a:active{
+   color: black;
+   text-decoration: underline;
+}
+
+section {
+   position: relative;
+   width: 8.26in;
+   height: 11.66in;
+   margin: 0;
+}
+
+.pageun > .date {
+   position: absolute;
+   bottom: 10px;
+   right: 10px;
+   text-align: end;
+   font-size: 25px;
+   padding: 0;
+}
+
+.date {
+   position: absolute;
+   bottom: 2px;
+   right: 2px;
+   text-align: end;
+   font-size: 12px;
+   padding: 0;
+}
+
+/* @page { size: A4 } */
+
+@media print {
+   section {
+      border: 1px solid black;
+      width: 8.26in;
+      height: 11.66in;
+      margin: 0;
+      /* change the margins as you want them to be. */
+      page-break-after: always;
+   }
+}
+
+h1{
+   font-size: 50px;
+   margin-left: 40px;
+}
+
+h2 {
+   margin-left: 40px;
+}
+
+.gros-titre h1{
+   text-align: center;
+   color:#628DFA;
+   margin-left: 0;
+}
+
+.details{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.details p{
+   width: 30%;
+   text-align: center;
+   color:#628DFA;
+   margin-left: 5px;
+}
+
+.pageun{
+   border: 12px solid #628DFA;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   padding: 10px;
+}
+
+.logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 400px;
+}
+
+.logo img {
+   object-fit: scale-down;
+}
+
+.pageun img {
+   width: 70%;
+   height: 70%;
+}
+
+div.titre > h1 {
+   text-align: center;
+}
+
+.pageun p{
+   font-size: 40px;
+}
+
+.texte {
+   display: flex;
+   flex-direction: column;
+}
+
+.paragraphe {
+   flex-basis: 70%;
+}
+
+table {
+   flex-basis: 30%;
+}
+
+.texte p{
+   font-size: 18px;
+}
+
+.texte table{
+   font-size: smaller;
+}
+
+.paragraphe {
+   height: 60%;
+   overflow: hidden;
+}
+
+.texte p{
+   padding: 10px;
+   line-height: 20px;
+   padding-left: 60px;
+   padding-right: 60px;
+}
+
+.tableau {
+   display: flex;
+   justify-content: center;
+   padding-left: 60px;
+   padding-right: 60px;
+}
+
+table{
+   width: 100%;
+   border: solid 3px black;
+   border-collapse: collapse;
+}
+
+td, th{
+   text-align: center;
+   padding: 10px;
+   border: solid 3px black;
+}
+
+.negatif{
+   color: red;
+}
+
+.positif{
+   color: green;
+}
+
+.flex-row{
+   padding: 40px;
+   display: inline-flex;
+   width: 100%;
+   justify-content: space-evenly;
+}
+
+.titre{
+   display: flex;
+   justify-content: center;
+   margin-top: 5%;
+   text-align: center;
+   color: #628DFA;
+}
+
+.texte > .titre {
+   margin-bottom: 0;
+}
+
+div.paragraphe {
+   margin-bottom: 0;
+}
+
+table {
+   margin-top: 0;
+}
+.flex-row {
+   padding-left: 60px;
+   padding-right: 60px;
+}
+
+.pagetrois figcaption{
+   font-size: xx-large;
+   text-align: center;
+}
+
+.qrcode{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   margin-bottom: 7%;
+}
+
+.qrcode a {
+   font-size: 28px;
+   color: #628DFA;
+}
+
+.qrcode img {
+   width: 200px;
+   height: 200px;
+}
+
+
+.flex-row img{
+   display: flex;
+   width: 200px;
+   height: 200px;
+}
+
+.flex-row figure{
+   margin: 10px;
+}
+
+.flex-row figcaption{
+   font-size: 22px;
+   margin-top: 10px;
+   text-align: center;
+}
